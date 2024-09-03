@@ -41,17 +41,17 @@ function App() {
   const getWeatherIconUrl = (main) => {
     switch (main) {
       case 'clear':
-        return '/src/sun.png';
+        return '/public/sun.png';
       case 'Rain':
-        return '/src/rain_with_cloud.png';
+        return '/public/rain_with_cloud.png';
       case 'Clouds':
-        return '/src/thunder.png';
+        return '/public/thunder.png';
       case 'Tornado':
-        return '/src/Tornado.png';
+        return '/public/Tornado.png';
       case 'Sunny':
-        return '/src/sun.png';
+        return '/public/sun.png';
       default:
-        return '/src/sun.png'; 
+        return '/public/sun.png'; 
     }
   }
 
